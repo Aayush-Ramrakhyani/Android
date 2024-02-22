@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main18Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/crick_background">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#3C3E3D"
+            android:layout_marginLeft="600dp"
+            android:id="@+id/teamw"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" WON THE TOSS ELECTED TO "
+            android:textColor="#3C3E3D"
+            android:id="@+id/text"
+            android:layout_toRightOf="@+id/teamw"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#3C3E3D"
+            android:id="@+id/elected"
+            android:layout_toRightOf="@+id/text"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Batsman"
+            android:textSize="25dp"
+            android:textColor="#3C3E3D"
+            android:id="@+id/batsman"
+            android:layout_below="@+id/elected"
+            android:layout_marginTop="50dp"></TextView>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Select Striker"
+            android:id="@+id/striker"
+            android:layout_below="@+id/batsman"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/signup_but"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"></Button>
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="Select Non-Striker"
+            android:id="@+id/non_striker"
+            android:layout_below="@+id/batsman"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/signup_but"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/striker"></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Bowler"
+            android:textSize="25sp"
+            android:textColor="#3C3E3D"
+            android:id="@+id/bowler"
+            android:layout_below="@+id/batsman"
+            android:layout_marginTop="100dp"></TextView>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Select Bowler"
+            android:id="@+id/bowl"
+            android:layout_below="@+id/bowler"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/signup_but"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bowl"
+            android:layout_centerHorizontal="true"
+            android:text="START"
+            android:id="@+id/start"></Button>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

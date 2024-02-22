@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/abstract_technology_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:alpha="0.3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_below="@+id/logo"
+        android:textSize="30dp"
+        android:id="@+id/appname"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="#D8C410" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo" />
+
+
+    <Button
+        android:id="@+id/sc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="SCORE BOARD"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="190dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:textColor="#100101"
+        android:background="@drawable/input_shape"
+
+        />
+
+    <Button
+        android:id="@+id/sch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SCHEDULE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="190dp"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:fontFamily="serif-monospace"
+        android:layout_below="@+id/sc"
+        android:textColor="#100101"
+        android:background="@drawable/input_shape"
+
+        />
+
+    <Button
+        android:id="@+id/analysis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/sch"
+        android:text="ANALYSIS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="190dp"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:fontFamily="serif-monospace"
+        android:textColor="#100101"
+        android:background="@drawable/input_shape"
+        />
+
+    </RelativeLayout>
